@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">我擦</string>
+    <string name="hello_world">Hello world fuhao !</string>
+    <string name="phone_name">手机号 </string>
+    <string name="car_name">车牌号 </string>
+    <string name="car_brand">汽车品牌</string>
+    <string name="car_color">汽车颜色</string>
+    <string name="car_addr">汽车地址</string>
+    <string name="order_commit">提交订单</string>
+    <string name="lovecar">我爱洗车</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_order_page">下订单</string>
+
+</resources>

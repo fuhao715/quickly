@@ -1,0 +1,107 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/order_r"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentTop="true"
+    android:background="#FFFFFF"
+    android:stretchColumns="1" >
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/phone_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/phone_name"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/phone_num"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="请填写电话号码"
+            android:inputType="phone"
+            android:selectAllOnFocus="true" />
+    </TableRow>
+
+    <!-- android:inputType = "numberPassword" 属性设置该输入框输入密码, 输入进去的值都显示 点号 -->
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/car_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/car_name"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/car_num"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <!-- android:inputType = "number" 属性设置数字 -->
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/car_brand"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/car_brand"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/car_brand_value"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <!-- android:inputType = "data" 属性设置日期 -->
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/car_color"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/car_color"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/car_color_value"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <!-- android:inputType = ""phone"" 属性设置电话 -->
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/car_addr"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/car_addr"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/car_addr_value"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入地址"
+            android:selectAllOnFocus="true" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/order_commit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/order_commit"
+            android:textSize="16sp" />
+    </TableRow>
+
+</TableLayout>
